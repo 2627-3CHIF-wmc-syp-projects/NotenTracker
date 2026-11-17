@@ -1,2 +1,2 @@
 # NotenTracker
-Track your grades
+Crack your grades
