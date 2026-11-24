@@ -1,42 +1,31 @@
 # Project Proposal - Template
 
-Insert your project proposal in the top level `README.md` of your repository and test it with the [**Novedu Writing Activity**](https://app.novedu.at/848j7fzkbk).
+## NotenTracker
 
-## Project Title
-
-> :bulb: **Notes:**
->
-> - The result in one line, not the technology.
+- A Program where you can see your grades from every subject whenever you want.
 
 ## 1. Initial Situation
 
 ### 1.1. Current Situation
 
-> :bulb: **Notes:**
->
-> - First clarify the project environment: is it about the beekeeping club or the school cafeteria of HTL Leonding?
-> - Describe the current situation: which activities or processes are involved?
-> - **No solution, no technology!** Test: would someone who doesn't know your project recognise the problem?
+- If you want to know your grades you have to ask your teacher.
+- After each test you have to ask again if it changed.
 
 ### 1.2. Potential for Improvement
 
-> :bulb: **Notes:**
->
-> - Describe the problems and the potential for improvement in the current situation.
-> - It should become clear that action is urgently needed!
-> - State what the problems cost (time, money, errors, frustration), with numbers where possible.
+- If you forget your current grade you have to ask the teacher and do the whole process again.
+- Each teacher has to be asked seperately, which takes a lot of time and is very tiring.
 
 ### 1.3. Stakeholders
 
-> :bulb: **Notes:**
->
-> - Who is affected by the project, can influence it, or believes they are affected?
-> - Mark each stakeholder as **internal** or **external** and state their **interest**.
-> - Don't forget who has to operate or accept the system.
-
 | Stakeholder | internal / external | Interest |
 | --- | --- | --- |
-| | | |
+| Students | Internal	| Access their current grades at any time |
+| Teachers | Internal	| Manage grades efficiently and reduce repetitive questions from students |
+| Development team | Internal	| Develop a functional and reliable application |
+| School management | Internal	| Improve the school's digital infrastructure |
+| School IT administrators | Internal	| Ensure security, reliability and maintainability |
+| Parents	| External | Stay informed about their children's academic progress, where permitted |
 
 ## 2. Objectives
 
