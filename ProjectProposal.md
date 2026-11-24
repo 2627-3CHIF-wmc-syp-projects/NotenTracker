@@ -31,33 +31,51 @@
 
 ### 2.1. Goals
 
-> :bulb: **Notes:**
->
-> - Outline your concept for a new system that can solve the problems described above.
-> - Use a **mind map** to work out the core features of your system.
-> - Write at least three **verifiable** goals: observable action, measurable condition, context.
-> - Mark each goal as an **outcome goal** or a **process goal**.
-> - Check each goal with the four questions: What for? For whom? End result? Success criteria?
-> - If two goals compete, state which one wins.
-
 | Goal | Type | For whom | How you can tell (success criterion) |
 | --- | --- | --- | --- |
-| | outcome goal / process goal | | |
+| Provide a central grade overview | Outcome goal | Students | Students can view their grades for all assigned subjects on one page. |
+| Simplify grade management | Outcome goal | Teachers | Teachers can add, edit and delete grades for their students. |
+| Provide up-to-date information | Outcome goal | Students | Changes made by teachers are visible to students after refreshing the page. |
+| Protect personal data | Outcome goal | Students and teachers | Students can only access their own grades, and teachers can only manage their assigned classes and subjects. |
+| Ensure reliable core functionality | Process goal | Development team | All defined test cases for the core features pass before the final presentation. |
+
+**Goal prioritisation:** If usability and data security conflict, data security has higher priority.
 
 ### 2.2. Non-Goals
 
-> :bulb: **Notes:**
->
-> - What does the project explicitly **not** do? At least three points.
-> - No "for now": a non-goal is not a hidden plan.
+- The system does not replace official school reports or certificates.
+- The system does not provide learning materials or exercises.
+- The system does not manage school timetables or student attendance.
+- The system does not provide a messaging or chat function between students and teachers.
+- The system does not automatically import grades from existing school management systems.
 
 ## 3. Opportunities and Risks
 
-> :bulb: **Notes:**
->
-> - What benefit does your proposed system bring to the company's strategic direction?
-> - Which concrete project risks have to be expected?
-> - Which **assumptions** have you made that are not yet clarified? State the source for each.
+### Opportunities
+
+- Reduce the time teachers spend answering questions about grades.
+- Improve transparency by giving students access to their current grades.
+- Help students keep track of their academic performance.
+- Support the digitalisation of the school.
+- Simplify the management of grades for teachers.
+
+### Risks
+
+| Risk | Possible consequence | Countermeasure |
+| --- | --- | --- |
+| Unauthorised access | Personal grades could be exposed. | Implement authentication and access control. |
+| Incorrect grade calculations | Students receive incorrect information about their performance. | Test the calculation logic with different grading scenarios. |
+| Data loss | Stored grades could be lost. | Implement regular backups. |
+| Low acceptance by teachers | The system is not used regularly. | Provide a simple and user-friendly interface. |
+| Time constraints | Important features may not be completed before the deadline. | Prioritise core features and define clear milestones. |
+
+### Assumptions
+
+| Assumption | Source |
+| --- | --- |
+| Teachers are willing to enter and update grades regularly. | - |
+| The school allows digital storage of grades in the proposed system. | - |
+| Teachers use different grading and weighting systems. | Development team's observations of everyday school life |
 
 ## 4. Planning
 
